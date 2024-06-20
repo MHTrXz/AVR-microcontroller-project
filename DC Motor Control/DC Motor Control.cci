@@ -1,0 +1,7 @@
+VERSION:3 SOURCE_TIMESTAMP:58D47459
+NODE:I LEVEL:0 LINE:1 "C:\Program Files (x86)\codevisionavr\inc\mega32.h"
+NODE:I LEVEL:0 LINE:2 "C:\Program Files (x86)\codevisionavr\inc\delay.h"
+NODE:I LEVEL:0 LINE:3 "C:\Program Files (x86)\codevisionavr\inc\alcd.h"
+NODE:M LEVEL:0 LINE:5 "ADC_VREF_TYPE"
+NODE:F LEVEL:0 LINE:6 "read_adc(unsigned char adc_input)"
+NODE:F LEVEL:0 LINE:16 "main(void)"
