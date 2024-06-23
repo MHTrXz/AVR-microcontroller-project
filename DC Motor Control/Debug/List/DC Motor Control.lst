@@ -1,9 +1,9 @@
 
-AVRASM ver. 2.1.30  C:\Users\MHTrXz\Desktop\DC Motor Control\Debug\List\DC Motor Control.asm Thu Jun 20 14:34:49 2024
+AVRASM ver. 2.1.30  C:\Users\MHTrXz\Desktop\AVR-microcontroller-project\DC Motor Control\Debug\List\DC Motor Control.asm Sun Jun 23 19:11:48 2024
 
-C:\Users\MHTrXz\Desktop\DC Motor Control\Debug\List\DC Motor Control.asm(1088): warning: Register r5 already defined by the .DEF directive
-C:\Users\MHTrXz\Desktop\DC Motor Control\Debug\List\DC Motor Control.asm(1089): warning: Register r4 already defined by the .DEF directive
-C:\Users\MHTrXz\Desktop\DC Motor Control\Debug\List\DC Motor Control.asm(1090): warning: Register r7 already defined by the .DEF directive
+C:\Users\MHTrXz\Desktop\AVR-microcontroller-project\DC Motor Control\Debug\List\DC Motor Control.asm(1088): warning: Register r5 already defined by the .DEF directive
+C:\Users\MHTrXz\Desktop\AVR-microcontroller-project\DC Motor Control\Debug\List\DC Motor Control.asm(1089): warning: Register r4 already defined by the .DEF directive
+C:\Users\MHTrXz\Desktop\AVR-microcontroller-project\DC Motor Control\Debug\List\DC Motor Control.asm(1090): warning: Register r7 already defined by the .DEF directive
                  
                  
                  ;CodeVisionAVR C Compiler V3.14 Advanced
@@ -1404,9 +1404,9 @@ C:\Users\MHTrXz\Desktop\DC Motor Control\Debug\List\DC Motor Control.asm(1090): 
 0000cd e0b1     +LDI R27 , HIGH ( _0x6 + ( 9 ) )
                  	__POINTW2MN _0x6,9
 0000ce d081      	RCALL _lcd_puts
-                 ; 0000 0030 delay_ms(3000);
-0000cf eba8      	LDI  R26,LOW(3000)
-0000d0 e0bb      	LDI  R27,HIGH(3000)
+                 ; 0000 0030 delay_ms(200);
+0000cf eca8      	LDI  R26,LOW(200)
+0000d0 e0b0      	LDI  R27,0
 0000d1 940e 0197 	CALL _delay_ms
                  ; 0000 0031 lcd_clear();
 0000d3 d05d      	RCALL _lcd_clear

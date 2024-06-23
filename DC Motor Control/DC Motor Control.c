@@ -45,7 +45,7 @@ lcd_gotoxy(16, 0);
 lcd_puts("WELCOME!");
 lcd_gotoxy(5, 1);
 lcd_puts("DC motor control with ATMEGA32");
-delay_ms(3000);
+delay_ms(200);
 lcd_clear();
 lcd_gotoxy(5, 0);
 lcd_puts("Sayyed Mohammad Hosein Hashemi");
